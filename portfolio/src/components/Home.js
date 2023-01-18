@@ -13,7 +13,11 @@ const Home = () => {
             className="w-full h-full object-cover"
           />
         </div>
-        <div>
+        <motion.div
+          initial={{ opacity: 0, x: -50 }}
+          whileInView={{ opacity: 1, x: 0 }}
+          transition={{ duration: 0.5 }}
+        >
           <div className="text-gray-300 sm:text-[1.25rem] mb-4">
             FullStack Developer
           </div>
@@ -68,7 +72,7 @@ const Home = () => {
               <FaLinkedin />
             </a>
           </div>
-        </div>
+        </motion.div>
       </div>
     </div>
   );
