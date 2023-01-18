@@ -40,7 +40,7 @@ function Navbar() {
         <motion.div
           initial={{ x: 500 }}
           animate={{ x: 0 }}
-          className="fixed right-0 top-0 bg-purple-800 h-screen text-white w-80"
+          className="fixed right-0 top-0 bg-gradient-to-b from-purple-800 to-black-600 h-screen text-white w-80"
         >
           <div className="flex flex-col gap-8 mt-[40%] ml-[30%]">
             {navLinks.map((navLink) => {

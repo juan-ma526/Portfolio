@@ -1,26 +1,35 @@
 import project1 from "./assets/project1.jpg";
 import project2 from "./assets/project2.jpg";
 import project3 from "./assets/project3.jpg";
+import { HiOutlineLocationMarker } from "react-icons/hi";
+import {
+  FaReact,
+  FaNodeJs,
+  FaDatabase,
+  FaBookOpen,
+  FaWhatsapp,
+} from "react-icons/fa";
+import { GrMail } from "react-icons/gr";
 
 export const navLinks = [
   {
     id: 1,
-    text: "Home",
+    text: "Inicio",
     href: "home",
   },
   {
     id: 2,
-    text: "Projects",
+    text: "Proyectos",
     href: "projects",
   },
   {
     id: 3,
-    text: "Testimonials",
-    href: "testimonials",
+    text: "Habilidades",
+    href: "services",
   },
   {
     id: 4,
-    text: "Contact",
+    text: "Contacto",
     href: "contact",
   },
 ];
@@ -47,5 +56,54 @@ export const projects = [
     id: 3,
     image: project3,
     value: "Ecommerce",
+  },
+];
+
+export const services = [
+  {
+    id: 1,
+    icon: <FaReact />,
+    title: "Front-end",
+    parraf: "Creacion de Simple-Page-Apps con React.js",
+  },
+  {
+    id: 2,
+    icon: <FaNodeJs />,
+    title: "Back-end",
+    parraf: "Creacion de Back-end APIs con Express.js, JWT authentification",
+  },
+  {
+    id: 3,
+    icon: <FaDatabase />,
+    title: "Bases de Datos",
+    parraf:
+      "Manejo de Base de datos Relacionales/Postgresql y No Relacionales/MongoDB. ",
+  },
+  {
+    id: 4,
+    icon: <FaBookOpen />,
+    title: "Actualidad",
+    parraf:
+      "Actualmente estoy mejorando mis habilidades en back-end como en front-end, a su vez estoy capacitandome con cursos en Docker y terminando los dos ultimos niveles de Ingles",
+  },
+];
+
+export const contacts = [
+  {
+    id: 1,
+    icon: <FaWhatsapp />,
+    text: "+549 351 3958726",
+    href: "https://wa.me/+5493513958726",
+  },
+  {
+    id: 2,
+    icon: <HiOutlineLocationMarker />,
+    text: "El Carmen, Jujuy-Argentina",
+  },
+  {
+    id: 3,
+    icon: <GrMail />,
+    text: "jmperez675@gmail.com",
+    href: "mailto:jmperez675@gmail.com",
   },
 ];

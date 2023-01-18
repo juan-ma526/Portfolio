@@ -11,6 +11,6 @@
     scroll-behavior: smooth;
   }
   .section {
-    @apply container mx-auto py-[6rem] min-h-screen px-6;
+    @apply container mx-auto py-[6rem] /* min-h-screen */ px-6;
   }
 }
