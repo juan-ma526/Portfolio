@@ -7,7 +7,7 @@ import Services from "./components/Services";
 
 function App() {
   return (
-    <div className="bg-gradient-to-b from-purple-800 to-black-600">
+    <div className="bg-gradient-to-b from-purple-800 to-black-600 font-Poppins">
       <Navbar />
       <Home />
       <Projects />

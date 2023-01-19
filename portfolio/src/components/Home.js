@@ -19,10 +19,10 @@ const Home = () => {
           transition={{ duration: 0.5 }}
         >
           <div className="text-gray-300 sm:text-[1.25rem] mb-4">
-            FullStack Developer
-          </div>
-          <h2 className="text-[2rem] sm:text-[3rem] font-bold mb-4">
             Martin Perez
+          </div>
+          <h2 className="text-[2rem] sm:text-[3rem] font-bold mb-4 fullStack">
+            FullStackDeveloper
           </h2>
           <p className="opacity-80 text-[1.0rem]">
             Termine el bootcamp de Plataforma 5,+800 hs cursadas para poder
@@ -61,15 +61,14 @@ const Home = () => {
               target="_blank"
               rel="noreferrer"
             >
-              <FaGithubSquare />
+              <FaGithubSquare className=" hover:text-white" />
             </a>
             <a
               href="https://www.linkedin.com/in/juan-martin-perez-2ba243246/"
               target="_blank"
               rel="noreferrer"
             >
-              {" "}
-              <FaLinkedin />
+              <FaLinkedin className=" hover:text-white" />
             </a>
           </div>
         </motion.div>

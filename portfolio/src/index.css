@@ -3,6 +3,9 @@
 @tailwind utilities;
 
 @layer base {
+  body {
+    font-family: "Poppins", sans-serif;
+  }
   img {
     width: 100%;
   }
@@ -12,5 +15,13 @@
   }
   .section {
     @apply container mx-auto py-[6rem] /* min-h-screen */ px-6;
+  }
+}
+@layer utilities {
+  .fullStack {
+    @apply relative text-slate-300;
+  }
+  .fullStack::before {
+    @apply content-["FullStackDeveloper..."] absolute text-black border-r-2 border-white top-0 left-0 w-0 h-[100%] overflow-hidden animate-animate;
   }
 }

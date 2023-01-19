@@ -46,16 +46,19 @@ export const projects = [
     id: 1,
     image: project1,
     value: "Turno App",
+    gitHub: "https://github.com/juan-ma526/webAPP-Reserva-de-turno",
   },
   {
     id: 2,
     image: project2,
     value: "Tmdb",
+    gitHub: "https://github.com/juan-ma526/TMDB/tree/main/tmdb",
   },
   {
     id: 3,
     image: project3,
     value: "Ecommerce",
+    gitHub: "https://github.com/juan-ma526/Ecommerce-Como-en-Casa",
   },
 ];
 

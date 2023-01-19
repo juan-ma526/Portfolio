@@ -12,7 +12,7 @@ const Services = () => {
           return (
             <div
               key={service.id}
-              className="flex gap-4 p-4 hover:bg-slate-300 rounded-lg"
+              className="flex gap-4 p-4 hover:bg-purple-400 rounded-lg"
             >
               <div className="text-white text-[2rem]">{service.icon}</div>
               <div>

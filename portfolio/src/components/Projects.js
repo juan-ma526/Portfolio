@@ -46,7 +46,21 @@ const Projects = () => {
                   exit={{ opacity: 0, transition: { duration: 0.3 } }}
                   key={filterImage.id}
                 >
-                  <motion.img src={filterImage.image} alt="" />
+                  <motion.img
+                    className="border-[2px] border-solid border-black"
+                    src={filterImage.image}
+                    alt="Imagen Proyecto"
+                  />
+                  <div className="flex mt-4 gap-4 justify-center">
+                    <a
+                      href={filterImage.gitHub}
+                      target="_blank"
+                      rel="noreferrer"
+                      className="hover:bg-purple-800 hover:text-white bg-white text-black py-2 px-4 border-[2px] border-solid border-blue text-[0.9rem] rounded-[2.2rem] shadow-md"
+                    >
+                      Github
+                    </a>
+                  </div>
                 </motion.div>
               );
             })}
