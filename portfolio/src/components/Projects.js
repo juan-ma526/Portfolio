@@ -60,6 +60,16 @@ const Projects = () => {
                     >
                       Github
                     </a>
+                    {filterImage.web && (
+                      <a
+                        href={filterImage.web}
+                        target="_blank"
+                        rel="noreferrer"
+                        className="hover:bg-purple-800 hover:text-white bg-white text-black py-2 px-4 border-[2px] border-solid border-blue text-[0.9rem] rounded-[2.2rem] shadow-md"
+                      >
+                        Web
+                      </a>
+                    )}
                   </div>
                 </motion.div>
               );
