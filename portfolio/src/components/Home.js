@@ -25,20 +25,25 @@ const Home = () => {
             FullStackDeveloper
           </h2>
           <p className="opacity-80 text-[1.0rem]">
-            Termine el bootcamp de Plataforma 5,+800 hs cursadas para poder
-            desarrollar habilidades blandas y tecnicas. A nivel tecnico adquiri
-            habilidades en NodeJS, Express, Sequelize, Mongodb, React,React
-            Context, Redux, Sass. Aprendi a utilizar metodologias ágiles, como
-            SCRUM. Durante la primera etapa estudie y trabajé haciendo pair
-            programming en Plataforma 5, y en las ultimas semanas utilicé los
-            conocimientos adquiridos para realizar una TMDB de una web para
-            visualizar peliculas. Tambien junto a 4 compañeros de trabajo
-            pudimos armar un Ecommerce para venta de platos de comida, aplicando
-            todo lo aprendido, y afianzando mas las habilidades blandas para la
-            comunicacion. En la ultima etapa junto a 3 compañeros realizamos una
-            practica profesional para la empresa Cruce, en la cual se realizo un
-            aplicacion para la reserva de turnos, creacion de usuarios,
-            sucursales, y el manejo de las mismas.
+            Estudie Ing. en computación 3 años en la FCEFyN de Córdoba, ahí
+            conocí la programación y decidí dedicarme a ella. En septiembre 2022
+            participe en un Bootcamp de Plataforma 5. Trabaje realizando una
+            practica profesional por 3 meses para la empresa Cruce, en
+            colaboración con otros compañeros haciendo pair programming con
+            ellos, lo que fortaleció mis habilidades blandas, como la
+            comunicación y el trabajo en equipo. En dicha experiencia laboral
+            realizamos una app de turnos con seguimiento de ellos y metas
+            semanales a cumplir para la empresa. También cree un ecommerce y una
+            app de películas. Al terminar el Bootcamp, eh estado mejorando mis
+            habilidades técnicas, en CSS, SASS, REDUX, NEXTJS, TAILWIND CSS y
+            BOOSTRAP. Soy una persona activa y apasionada por mejorar
+            constantemente mis habilidades y aprender nuevas herramientas.
+            Además, disfruto trabajar en equipo y enfrentar desafíos que me
+            permitan encontrar soluciones a los problemas. Confío en mis
+            habilidades como desarrollador y estoy comprometido con el
+            crecimiento profesional continuo. Estoy entusiasmado por contribuir
+            con mi experiencia y conocimientos en un entorno dinámico donde
+            pueda seguir expandiendo mis capacidades técnicas.
           </p>
           <div className="flex mt-4 gap-4">
             <a
