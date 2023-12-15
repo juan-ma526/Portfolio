@@ -1,4 +1,4 @@
-import Logo from "../assets/Logo.png";
+import PhotoProfile from "../assets/photoProfile.jpeg";
 import { motion } from "framer-motion";
 import { FaGithubSquare, FaLinkedin } from "react-icons/fa";
 
@@ -8,7 +8,7 @@ const Home = () => {
       <div className="grid md:grid-cols-2 place-items-center gap-8 ">
         <div className="w-[250px] h-[250px] sm:w-[350px] sm:h-[350px] rounded-full overflow-hidden shadow-heroSadow border-[20px] border-solid border-ghostWhite">
           <img
-            src={Logo}
+            src={PhotoProfile}
             alt="Logo-img"
             className="w-full h-full object-cover"
           />
